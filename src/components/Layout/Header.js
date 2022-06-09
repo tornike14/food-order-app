@@ -1,5 +1,7 @@
 import React from "react";
 
+import HeaderCartButton from "./HeaderCartButton";
+
 import MealsImage from "../../assets/images/meals.jpg"
 import classes from "./Header.module.css";
 
@@ -9,7 +11,7 @@ const Header = () => {
       <header className={classes.header}>
         <h1>Georgian Foods</h1>
         
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
 
       <div className={classes['main-image']}>
